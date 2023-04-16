@@ -16,7 +16,7 @@ export default function Home() {
     try {
       // Create a new post in Facebook Marketplace using the backend API
       const response = await axios.post(
-        '/api/facebook/marketplace',
+        '/api/marketplace',
         {
           title,
           description,
